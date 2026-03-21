@@ -1,22 +1,28 @@
+import org.jetbrains.kotlin.gradle.dsl.KotlinJvmProjectExtension
+
 plugins {
-    kotlin("jvm") version "2.2.21"
+    alias(libs.plugins.kotlin.jvm) apply false
 }
 
-group = "club.skidware"
-version = "1.0-SNAPSHOT"
+allprojects {
+    group = "club.skidware"
+    version = "1.0.0"
 
-repositories {
-    mavenCentral()
+    repositories {
+        mavenCentral()
+        maven("https://repo.papermc.io/repository/maven-public/")
+        maven("https://jitpack.io")
+    }
 }
 
-dependencies {
-    testImplementation(kotlin("test"))
-}
+subprojects {
+    apply(plugin = "org.jetbrains.kotlin.jvm")
 
-kotlin {
-    jvmToolchain(21)
-}
+    configure<KotlinJvmProjectExtension> {
+        jvmToolchain(21)
+    }
 
-tasks.test {
-    useJUnitPlatform()
+    tasks.withType<Test> {
+        useJUnitPlatform()
+    }
 }

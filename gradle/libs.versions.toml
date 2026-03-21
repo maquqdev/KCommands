@@ -1,0 +1,15 @@
+[versions]
+kotlin = "2.1.20"
+paper = "1.21.4-R0.1-SNAPSHOT"
+junit = "5.11.4"
+mockbukkit = "4.30.0"
+
+[libraries]
+paper-api = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
+junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
+mockbukkit = { module = "org.mockbukkit.mockbukkit:mockbukkit-v1.21", version.ref = "mockbukkit" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
