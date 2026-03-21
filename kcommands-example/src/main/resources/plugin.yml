@@ -1,0 +1,6 @@
+name: KCommandsExample
+version: 1.0.0
+main: club.skidware.kcommands.example.ExamplePlugin
+api-version: '1.21'
+description: Example plugin demonstrating all KCommands features
+author: maquq

@@ -1,0 +1,18 @@
+# KCommands Example Plugin Configuration
+
+messages:
+  no-permission: "<red>You don't have permission! <dark_gray>({PERMISSION})"
+  player-only: "<red>This command can only be used by players!"
+  console-only: "<red>This command can only be used from console!"
+  invalid-arg: "<red>Invalid <gold>{ARG}</gold>: <white>{INPUT}<red> - {EXPECTED}"
+  missing-arg: "<red>Missing argument: <gold>{ARG}"
+  usage: "<gray>{USAGE}"
+  out-of-range: "<red>{ARG} must be between <white>{MIN}</white> and <white>{MAX}</white>!"
+  cooldown: "<red>Please wait <gold>{TIME}</gold> before using this again!"
+  unknown-subcommand: "<red>Unknown subcommand: <gold>{INPUT}<red>. Available: <yellow>{AVAILABLE}"
+  confirm: "<yellow>Type <gold>/confirm</gold> within <white>{TIME}s</white> to confirm."
+  confirm-expired: "<red>Confirmation expired."
+  command-error: "<red>An error occurred! Please contact an administrator."
+  help-header: "<gold><bold>{COMMAND} Help</bold></gold>"
+  help-entry: "<gray>  {USAGE} <dark_gray>- {DESCRIPTION}"
+  help-footer: "<gray>Page <white>{PAGE}<gray>/<white>{PAGES}"

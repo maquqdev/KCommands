@@ -6,3 +6,4 @@ rootProject.name = "KCommands"
 
 include("kcommands-core")
 include("kcommands-test")
+include("kcommands-example")
