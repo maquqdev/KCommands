@@ -5,7 +5,7 @@
 <br/>
 
 [![CI](https://github.com/maquqdev/KCommands/actions/workflows/ci.yml/badge.svg)](https://github.com/maquqdev/KCommands/actions)
-[![JitPack](https://jitpack.io/v/maquq/KCommands.svg)](https://jitpack.io/#maquq/KCommands)
+[![JitPack](https://jitpack.io/v/maquqdev/KCommands.svg)](https://jitpack.io/#maquqdev/KCommands)
 [![License](https://img.shields.io/github/license/maquq/KCommands?style=flat&color=6C3483)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1-%237F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Paper](https://img.shields.io/badge/Paper-1.21.4-%232980B9)](https://papermc.io)
